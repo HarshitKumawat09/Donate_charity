@@ -1,0 +1,25 @@
+.filter-choice {
+    border-radius: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+.filter-text {
+    color: #4D6052;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.when-not-clicked {
+    background-color: #D9D9D9;
+    border: 0.1rem solid;
+}
+
+.when-clicked {
+    background-color: #F8D764;
+    border: 0.08rem solid;
+}

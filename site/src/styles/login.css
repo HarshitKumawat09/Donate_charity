@@ -1,0 +1,73 @@
+.log-button{
+    background-color: #F8D764; /* yellow */
+    border: none;
+    width: 110px;
+    color: #4D6052 /*bg color*/;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration:.2s;
+    padding: 0.5em;
+    margin-top: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-container button:hover{
+    background-color:whitesmoke;
+}
+
+.login-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height:60px;
+    gap: 15px;
+}
+
+.input-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:400px;
+}
+
+
+.login-container input{
+    font-family: 'Montserrat', sans-serif;
+    border-radius:8px;
+    border:none;
+    height:27px;
+    width: 300px;
+    padding-left: 10px;
+    background-color: #EEEEEE;
+}
+
+.login-container label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.title{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 28px;
+    padding-bottom: 2em;
+}
+.container{
+    display: flex;
+    height: 50vh;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+
+body{
+    background-color: #475B51;
+}

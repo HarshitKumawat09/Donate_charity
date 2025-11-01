@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);;
+    ;
+}
+.logout-button{
+    background-color:#f0f0f0;
+    border-radius:30px;
+    color: #4d6052;
+    transition-duration:0.2s;
+    border:none;
+}
+.logout-button:hover{
+    background-color:#B2D4BB;
+}
+.navbar_logo img {
+    max-width: 250px; /* Adjust the max-width as needed */
+    margin-left:2em;
+}
+
+.navbar_buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-right:2em;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    height: 2.5em;
+    width: 8em;
+}
+
+.signup-button {
+    background-color:#f0f0f0;
+    border-radius:30px;
+    color: #4d6052;
+    transition-duration:0.2s;
+    border:none;
+}
+
+.signup-button:hover {
+    background-color:#F8D764;
+}
+
+.login-button {
+    color: white;
+    background: none;
+    border: none;
+    transition-duration:0.2s;
+}
+
+.login-button:hover {
+    color:lightgray !important;
+    background-color:transparent !important;
+}

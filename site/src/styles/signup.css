@@ -1,0 +1,68 @@
+
+body {
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);;
+}
+
+.signupContainer {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+.signupContainer div {
+    margin: 30px;
+}
+.form-input {
+    text-align: right;
+    font-size: 14px;
+}
+.form-input div {
+    margin: 8px;
+}
+.signupContainer input {
+    margin-left: 5px;
+    border-radius: 8px;
+    border: 1px solid #1d1d1d ;
+    padding-left: 10px;
+}
+
+.signupContainer input:not([type="radio"]) {
+    width: 250px;
+    height: 25px;
+
+}
+
+
+.sign-button {
+    margin-top: 20px;
+    background-color: #F8D764;
+    border: none;
+    color: #475B51;
+    border-radius: 8px;
+    height: 50px;
+    width: 110px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sign-button:hover {
+    background-color:whitesmoke;
+}
+
+.age-label {
+    margin-right: 175px;
+}
+.organization-label {
+    margin-right: 27px;
+}
+
+.signbutton-container {
+    text-align:center;
+}

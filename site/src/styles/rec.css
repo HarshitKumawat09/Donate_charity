@@ -1,0 +1,85 @@
+.rec-container {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.organization-results {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 1%;
+    gap: 10px;
+}
+
+.individual-organization {
+    width: 50vw;
+    align-content: center;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.rec-list > div {
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+.rec-list > div > p {
+    white-space: nowrap;
+    margin: 10px;
+}
+
+.see-more {
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.see-more-div {
+    /*margin-top: 10px;*/
+}
+
+.heart {
+    object-fit: contain;
+    height: 60%;
+    cursor: pointer;
+}
+.external-icon {
+    object-fit: contain;
+    width: 15px;
+    cursor: pointer;
+}
+
+.rec-container > button {
+    background-color: #F8D764; /* yellow */
+    border: none;
+    color: #4D6052 /*bg color*/;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration:.2s;
+    height: 40px;
+    width: 5em;
+    padding: 0;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: whitesmoke;
+}
